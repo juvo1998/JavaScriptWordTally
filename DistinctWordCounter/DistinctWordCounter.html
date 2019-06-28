@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <script src = "WordTally.js"></script>
+
+    <header>
+        <title>DistinctWordCounter</title>
+    </header>
+
+    <h1>Select multiple .txt files and click the button to tally up each word.</h1>
+
+    <form onsubmit = "return false">
+        Select a file: <input type = "file" id = "inputFiles" multiple>
+    </form>
+
+    <br>
+
+    <button onclick = "tallyWords()">Tally up the words!</button>
+
+    <p id = "display"></p>
+    <p id = "log"></p>
+
+</html>
